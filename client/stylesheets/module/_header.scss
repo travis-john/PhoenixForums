@@ -1,0 +1,20 @@
+.navbar.navbar-default {
+  border-radius: 0px;
+  background: #b59a57;
+  color: white;
+
+  .navbar-brand > span {
+    position: relative;
+    top: -1px;
+    left: 10px;
+    font-size: 14px;
+    color: black;
+  }
+    .navbar-right {
+        color: white;
+    }
+}
+
+body.is-channel .navbar.navbar-default {
+  border-bottom: none;
+}
